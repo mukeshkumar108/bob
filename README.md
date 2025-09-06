@@ -31,23 +31,24 @@ cp -r bob/* /path/to/your/project/
 ### **Step 2: BOB Analyzes Your Project (One-time Setup)**
 Tell your AI assistant:
 ```
-"Read /docs/BOB_RULES.md and analyze this project to understand its structure and set up smart collaboration"
+"Read /docs/BOB_RULES.md and run the project analyzer to update BOB's documentation with this project's actual structure"
+```
+
+**You can also run BOB's analyzer manually:**
+```bash
+node scripts/project-analyzer.js
 ```
 
 **BOB will:**
-- 🔍 Scan your project structure and framework
-- 📝 Fill in injection points with real file paths
-- 🗺️ Update component maps with your actual components
-- 📊 Set up token tracking and efficiency monitoring
+- 🔍 Automatically scan your actual source files
+- 📝 Update docs/ARCHITECTURE.md with your real components
+- 🗺️ Generate COMPONENT_MAP.md with actual relationships
+- 💉 Update injection points with real file paths
+- 📊 Analyze framework, database, and authentication
 
-**BOB will respond:**
-> *"I've analyzed your project and am ready to help!*
-> *✅ Detected [your framework] setup*
-> *✅ Mapped [X] components and [Y] key files*
-> *✅ Set up smart shortcuts for efficient work*
-> *Ready for collaboration with estimated 70% token savings!"*
+**BOB will update its documentation with YOUR actual project data!**
 
-**✅ BOB is now familiar with your project!**
+**✅ BOB now knows your real project structure!**
 
 ---
 

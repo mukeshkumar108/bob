@@ -15,6 +15,13 @@ At the start of every session, the agent must confirm:
 After initial project analysis, BOB should confirm project familiarity:
 > "I've analyzed your project and am ready to help! ✅ Detected [framework] setup ✅ Mapped [X] components ✅ Set up smart shortcuts ✅ Ready for efficient collaboration"
 
+### Dynamic Documentation Updates
+BOB's documentation is automatically updated with real project data:
+- Run `node scripts/project-analyzer.js` to scan and update docs
+- docs/ARCHITECTURE.md gets populated with actual components
+- Injection points reference real file paths from your project
+- COMPONENT_MAP.md shows actual component relationships
+
 ---
 
 ## Hard Limits & Constraints

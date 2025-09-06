@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
   "project": {
-    "name": "BOB",
-    "framework": "BOB Intelligence",
-    "type": "AI Dev Companion",
+    "name": "agent-workflow-template",
+    "framework": "React",
+    "type": "React Application",
     "structure": "Template"
   },
   "bob": {

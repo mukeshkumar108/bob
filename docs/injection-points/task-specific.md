@@ -21,12 +21,12 @@ Key Context:
 ## Database Operations
 ```
 Injection: BOB_INJECTION_DB
-Files: /src/services/db.ts (lines 1-30) + /docs/SUPABASE_SETUP.md (lines 30-60)
+Files: /src/services/database.ts (lines 1-30) + /docs/SUPABASE_SETUP.md (lines 30-60)
 Context: Database queries, RLS policies, schema relationships
 Usage: CRUD operations, data fetching, permission issues
 
 Files to Read:
-- /src/services/db.ts (lines 1-30) - Service function patterns
+- /src/services/database.ts (lines 1-30) - Service function patterns
 - /docs/SUPABASE_SETUP.md (lines 30-60) - Database schema & RLS
 - /docs/ARCHITECTURE.md (lines 40-70) - Database integration
 
@@ -39,14 +39,14 @@ Key Context:
 ## Component Creation
 ```
 Injection: BOB_INJECTION_COMPONENTS
-Files: /docs/FILE_STRUCTURE.md (lines 25-75) + /src/components/ui/button.tsx (lines 1-20)
+Files: /docs/FILE_STRUCTURE.md (lines 25-75) + /src/components/Example.tsx (lines 1-20)
 Context: Component patterns, file structure, import conventions
 Usage: Creating new components, following project conventions
 
 Files to Read:
 - /docs/FILE_STRUCTURE.md (lines 25-75) - Component patterns
 - /docs/COMPONENT_MAP.md (lines 15-40) - Import relationships
-- /src/components/ui/button.tsx (lines 1-20) - shadcn/ui example
+- /src/components/Example.tsx (lines 1-20) - shadcn/ui example
 
 Key Context:
 - UI components → /src/components/ui/ with shadcn/ui pattern
@@ -75,14 +75,14 @@ Key Context:
 ## Form Handling
 ```
 Injection: BOB_INJECTION_FORMS
-Files: /src/pages/ProfilePage.tsx (lines 40-80) + /src/services/db.ts (lines 40-60)
+Files: /src/pages/ProfilePage.tsx (lines 40-80) + /src/services/database.ts (lines 40-60)
 Context: Form patterns, validation, submission handling
 Usage: Implementing forms, handling user input
 
 Files to Read:
 - /src/pages/ProfilePage.tsx (lines 40-80) - Form example
 - /src/components/ui/input.tsx (lines 1-15) - Input component
-- /src/services/db.ts (lines 40-60) - Update patterns
+- /src/services/database.ts (lines 40-60) - Update patterns
 
 Key Context:
 - State management: useState for form fields
@@ -117,7 +117,7 @@ Usage: Implementing error boundaries, handling exceptions
 
 Files to Read:
 - /src/context/AuthContext.tsx (lines 30-50) - Error handling patterns
-- /src/services/db.ts (lines 15-25) - Try/catch blocks
+- /src/services/database.ts (lines 15-25) - Try/catch blocks
 - /docs/TROUBLESHOOTING.md (lines 20-40) - Common error patterns
 
 Key Context:

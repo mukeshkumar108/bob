@@ -1,0 +1,26 @@
+{
+  "lastSession": {
+    "timestamp": "2025-09-06T16:31:22.214Z",
+    "project": "BOB",
+    "agent": "BOB-Tracked",
+    "tokensUsed": 0,
+    "contextSummary": "Session completed"
+  },
+  "ongoingTasks": [],
+  "learnedPatterns": {
+    "preferredInjectionPoints": [
+      "BOB_INJECTION_AUTH"
+    ],
+    "commonWorkflows": [],
+    "tokenEfficiencyTips": []
+  },
+  "usageStats": {
+    "sessions": 2,
+    "totalTokens": 3200,
+    "avgTokensPerSession": 1600,
+    "mostUsedInjectionPoints": {
+      "BOB_INJECTION_AUTH": 1
+    },
+    "peakEfficiency": 0
+  }
+}

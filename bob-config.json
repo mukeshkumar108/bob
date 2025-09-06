@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "BOB",
+    "framework": "BOB Intelligence",
+    "type": "AI Dev Companion",
+    "structure": "Template"
+  },
+  "bob": {
+    "intelligence": {
+      "autoAnalysis": true,
+      "usageTracking": true,
+      "sessionPersistence": true,
+      "tokenAlerts": true
+    },
+    "limits": {
+      "maxTokensPerSession": 15000,
+      "alertThreshold": 3000,
+      "diffLimit": 150,
+      "fileLimit": 3
+    }
+  },
+  "injectionPoints": {
+    "quickAccess": [],
+    "learnedFavorites": [
+      "BOB_INJECTION_AUTH"
+    ],
+    "frameworkSpecific": {}
+  },
+  "patterns": {
+    "codingStyle": "Unknown",
+    "preferredWorkflows": [],
+    "efficiencyLearnings": []
+  },
+  "analytics": {
+    "enabled": true,
+    "trackUsage": true,
+    "measureEfficiency": true,
+    "anonymized": true
+  }
+}
